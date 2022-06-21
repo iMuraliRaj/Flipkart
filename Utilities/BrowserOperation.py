@@ -19,7 +19,10 @@ def launchBrowser():
 
 
 def login():
-    pass
+    Utility.sendKeys(driver,ElementLogin.username,configDriver.get("Credential", "username"))
+    Utility.sendKeys(driver,ElementLogin.password,configDriver.get("Credential", "password"))
+    Utility.click(driver,ElementLogin.login)
+
 
 
 def launchFlipkart():

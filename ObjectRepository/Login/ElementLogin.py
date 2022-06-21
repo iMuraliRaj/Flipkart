@@ -1,8 +1,8 @@
-username="//input[@id='sloginid']"
+username="/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"
 
-password="//input[@id='spassword']"
+password="/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input"
 
-login="//button[text()='Login']"
+login="/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button"
 
 welcomeText="//h1[text()='Welcome to Qualis']"
 
