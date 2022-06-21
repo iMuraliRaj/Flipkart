@@ -1,0 +1,2 @@
+
+The folder is used to manage all the web element of the application as Page Object Model

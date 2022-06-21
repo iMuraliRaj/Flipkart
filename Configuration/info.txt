@@ -1,0 +1,1 @@
+The file is related to configure the all dynamic detail in the run time.
