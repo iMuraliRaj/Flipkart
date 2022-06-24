@@ -21,6 +21,7 @@ def launchBrowser():
 def login():
     try:
         Utility.sendKeys(driver,ElementLogin.username,configDriver.get("Credential", "username"))
+        print("Entered user name")
     except:
         pass
     try:
